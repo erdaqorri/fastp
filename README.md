@@ -342,7 +342,7 @@ By default, fastp uses 1/20 reads for sequence counting, and you can change this
 # merge paired-end reads
 For paired-end (PE) input, fastp supports stiching them by specifying the `-m/--merge` option. In this `merging` mode:
 
-* `--merged_out` shouuld be given to specify the file to store merged reads, otherwise you should enable `--stdout` to stream the merged reads to STDOUT. The merged reads are also filtered.
+* `--merged_out` should be given to specify the file to store merged reads, otherwise you should enable `--stdout` to stream the merged reads to STDOUT. The merged reads are also filtered.
 * `--out1` and `--out2` will be the reads that cannot be merged successfully, but both pass all the filters.
 * `--unpaired1` will be the reads that cannot be merged, `read1` passes filters but `read2` doesn't.
 * `--unpaired2` will be the reads that cannot be merged, `read2` passes filters but `read1` doesn't.
